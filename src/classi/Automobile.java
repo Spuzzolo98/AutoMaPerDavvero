@@ -1,17 +1,9 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package classi;
 
-/**
- *
- * @author sofiataurino
- */
 public class Automobile {
+
     private String Marca, Modello;
-    private int Costo,Anno_presentazione;
+    private int Costo, Anno_presentazione;
 
     public String getMarca() {
         return Marca;
@@ -54,6 +46,5 @@ public class Automobile {
 
     public Automobile() {
     }
-    
-    
+
 }
